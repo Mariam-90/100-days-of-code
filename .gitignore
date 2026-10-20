@@ -1,9 +1,26 @@
+
+# OS files
+.DS_Store
+Thumbs.db
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+# Common generated output
+node_modules/
+dist/
+build/
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-env/
-.idea/
-.vscode/
-.DS_Store
-.env
+Icon?
